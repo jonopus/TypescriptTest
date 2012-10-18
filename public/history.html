@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>
+		History.js
+	</title>
+	<script src="js/jquery-1.7.2.js"></script>
+	<script src="js/jquery.history.js"></script>
+</head>
+<body style="padding-bottom:40px">
+	<div id="wrap">
+		<ul id="buttons">
+		</ul>
+
+		<!-- Our Script -->
+		<script>
+			(function(window,undefined){
+				var History = window.History
+				
+				History.Adapter.bind(window,'statechange',function(){
+					console.log('statechange:', History.getState().url);
+				});
+
+				var
+					buttons = document.getElementById('buttons'),
+					scripts = [
+						'History.pushState(null, null, "qwe");',
+						'History.pushState(null, null, "asd");',
+						'History.pushState(null, null, "zxc");'
+					],
+					buttonsHTML = '';
+
+				for ( var i=0,n=scripts.length; i<n; ++i ) {
+					var _script = scripts[i];
+					buttonsHTML +=
+						'<li><button onclick=\'javascript:'+_script+'\'>'+_script+'</button></li>';
+				}
+				buttons.innerHTML = buttonsHTML;
+
+			})(window);
+		</script>
+	</div>
+
+</body>
+</html>

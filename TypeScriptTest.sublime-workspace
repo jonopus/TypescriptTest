@@ -1,0 +1,594 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ex",
+				"extends"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"add",
+				"addChild"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"ts",
+				"tst"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/com/opus/app/App.ts",
+			"settings":
+			{
+				"buffer_size": 12059,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/createjs.d.ts",
+			"settings":
+			{
+				"buffer_size": 4829,
+				"line_ending": "Windows",
+				"name": "createjs.d.ts"
+			}
+		},
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 639,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/com/millermedeiros/hasher/Hasher.ts",
+			"settings":
+			{
+				"buffer_size": 264,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/build.ts",
+			"settings":
+			{
+				"buffer_size": 980,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/tsc.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 97.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/node.d.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/public/js/easeljs-0.5.0.min.js",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/jquery.d.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/README.txt",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/org/casalib/time/Sequence.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/build.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/org/casalib/process/Process.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/public/history.html",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/public/js/hasher.js",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/com/opus/signals/Signal.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/com/opus/app/constants/Constants.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/compile.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/public/index-2.html",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/public/index-2_edgePreload.js",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/public/index-2_edgeActions.js",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/public/index-2_edge.js",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/public/js/App-min.js",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/public/js/jquery-1.7.2.js",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/public/js/Ease.js",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/public/js/preloadjs-0.2.0.min.js",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/public/index.html",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/com/opus/signals/signal.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/HttpServer.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/com/opus/app/facade/AppFacade.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/org/puremvc/typescript/patterns/command/SimpleCommand.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/public/js/App.js",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/org/puremvc/typescript/patterns/proxy/Proxy.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/org/puremvc/typescript/patterns/facade/Facade.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/org/puremvc/typescript/interfaces/IView.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/org/puremvc/typescript/core/View.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/public/js/tweenjs-0.3.0.min.js",
+		"/C/Users/jadams/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/jadams/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/TypeScriptTest.sublime-project",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/com/opus/app/App.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/HttpServer.js",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/com/opus/app/constants/constants.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/com/App.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/constants.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/App.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/local/HttpServer.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/com/opus/net/HttpServer.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/src/compileApp.js",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/App.ts",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/public/css/style.css",
+		"/C/Users/jadams/Google Drive/TypeScriptTest/compile.ts",
+		"/C/SVN/TypeScriptTest2/compileApp.ts",
+		"/C/SVN/TypeScriptTest2/public/js/App-min.js",
+		"/C/SVN/TypeScriptTest2/compile.ts",
+		"/C/SVN/TypeScriptTest2/Compile.ts",
+		"/C/SVN/TypeScriptTest2/App.ts",
+		"/C/SVN/TypeScriptTest2/public/js/App.js",
+		"/C/SVN/TypeScriptTest2/README.txt",
+		"/C/SVN/TypeScriptTest2/Compile.js",
+		"/C/SVN/TypeScriptTest2/args.tsc",
+		"/C/SVN/TypeScriptTest2/easeljs-0.5.0.min.js",
+		"/C/SVN/TypeScriptTest2/easeljs-0.5.0.min.ts",
+		"/C/SVN/TypeScriptTest2/public/index.html",
+		"/C/SVN/TypeScriptTest2/HttpServer.ts",
+		"/C/SVN/TypeScriptTest2/local/HttpServer.js",
+		"/C/SVN/TypeScriptTest2/src/HttpServer.ts",
+		"/C/SVN/TypeScriptTest2/src/Compile.ts",
+		"/C/SVN/TypeScriptTest2/src/Compile.js",
+		"/C/SVN/TypeScriptTest2/src/signal.ts",
+		"/C/SVN/TypeScriptTest2/constants.ts",
+		"/C/SVN/TypeScriptTest2/index.html",
+		"/C/SVN/TypeScriptTest2/HttpServer.js",
+		"/C/SVN/TypeScriptTest2/signal.ts",
+		"/C/SVN/TypeScriptTest2/App.js",
+		"/C/SVN/TypeScriptTest2/signal.js",
+		"/C/SVN/TypeScriptTest2/index.htm",
+		"/C/SVN/TypeScriptTest2/Main.js",
+		"/C/SVN/TypeScriptTest2/game.js",
+		"/C/SVN/TypeScriptTest2/Game.ts",
+		"/C/SVN/TypeScriptTest2/Features.ts",
+		"/C/SVN/TypeScriptTest2/Driver.ts",
+		"/C/SVN/TypeScriptTest2/Constants.ts",
+		"/C/SVN/TypeScriptTest2/Position.ts",
+		"/C/SVN/TypeScriptTest2/geometry.ts",
+		"/C/SVN/TypeScriptTest2/data.ts",
+		"/C/SVN/TypeScriptTest2/itemDetailPage.ts",
+		"/C/SVN/TypeScriptTest2/TypeScriptTest.ts",
+		"/C/SVN/TypeScriptTest2/casalib.d.ts",
+		"/C/SVN/TypeScriptTest/compile.ts",
+		"/C/SVN/TypeScriptTest/src/TypeScriptTest.ts",
+		"/C/SVN/TypeScriptTest/src/casalib.js",
+		"/C/SVN/TypeScriptTest/src/casalib.d.ts",
+		"/C/SVN/TypeScriptTest/src/casalib.ts",
+		"/C/SVN/TypeScriptTest/src/test.ts",
+		"/C/SVN/TypeScriptTest/src/jquery.d.ts",
+		"/C/SVN/TypeScriptTest/js/TypeScriptTest.js",
+		"/C/SVN/TypeScriptTest/src/com/tst/constants/ApplicationConstants.ts",
+		"/C/SVN/TypeScriptTest/src/com/tst/constants/TSTConstants.ts",
+		"/C/SVN/TypeScriptTest/lib/puremvc-1.0.1.ts",
+		"/C/SVN/TypeScriptTest/js/puremvc-1.0.1.js",
+		"/C/SVN/TypeScriptTest/js/TypeScriptTest.d.ts",
+		"/C/SVN/TypeScriptTest/index.html",
+		"/C/SVN/TypeScriptTest/TypeScriptTest.sublime-project",
+		"/C/SVN/TypeScriptTest/.sublime-build",
+		"/C/Users/jadams/AppData/Roaming/Sublime Text 2/Packages/User/tsc.sublime-build",
+		"/C/SVN/TypeScriptTest/bin/TypeScriptTest.js",
+		"/C/SVN/TypeScriptTest/compile.js",
+		"/C/Users/jadams/AppData/Roaming/Sublime Text 2/Packages/User/Plain text.sublime-settings",
+		"/C/SVN/TypeScriptTest/launch.bat",
+		"/C/SVN/TypeScriptTest/compile.bat",
+		"/C/SVN/TypeScriptTest/Makefile",
+		"/C/SVN/TypeScriptTest/src/TypeScriptTest.js",
+		"/C/SVN/TypeScriptTest/TypeScriptTest.sublime-workspace"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\jadams\\Google Drive\\TypeScriptTest"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"setStrokeStyle",
+			"function",
+			":",
+			"Graphics",
+			" = ",
+			"p.",
+			"/**",
+			"= ",
+			"p.",
+			"/**",
+			"		\n",
+			"fill",
+			" <object>",
+			"setStrokeStyle",
+			"class",
+			"StringDecoder",
+			"):createjs.Graphics",
+			"String",
+			"))",
+			", :",
+			" ,",
+			"( ",
+			" (",
+			"Graphics",
+			"curveTo",
+			"number",
+			")createjs.Graphics",
+			" ( )",
+			"number",
+			")Graphics",
+			"colors",
+			"Returns: ",
+			":any",
+			" <Number>",
+			"<Array[Number]>",
+			"<Array[String]>",
+			"<object>",
+			"Returns: Graphics",
+			"interface",
+			"Container",
+			"CanvasRenderingContext2D",
+			"export function ",
+			"Boolean",
+			"String",
+			"Number",
+			" - ",
+			"Shape",
+			"createjs",
+			"Sequence",
+			"stopped",
+			" : function",
+			"appendHash",
+			"prependHash",
+			"POOL_INTERVAL",
+			"_",
+			"getURL",
+			"hasher.",
+			"Hasher.",
+			"prependHash",
+			"hasher",
+			"Signal",
+			"signal",
+			"signals",
+			"document",
+			"history",
+			"memorize",
+			"com.opus.signals",
+			"hash",
+			"onhashchange",
+			"hash",
+			"ul",
+			"sineInOut",
+			"sine",
+			"createStage",
+			"bgImage",
+			"result",
+			"image",
+			"preloadComplete",
+			"getImage",
+			"handleComplete",
+			"handleError",
+			"createBgImage",
+			"preloadComplete",
+			"handleComplete",
+			"getImage",
+			"handleProgress",
+			"PreloadJS",
+			"handleComplete",
+			"handleProgress",
+			"this.",
+			"shape",
+			"addItemsToStage",
+			"createStage",
+			"createBgImage",
+			"shape",
+			"addItemsToStage",
+			"event.result",
+			"createStage",
+			"sequence",
+			"bitmap",
+			"displayImage",
+			"http://opuswebdev.com:1337/",
+			"rty",
+			"img",
+			"$(\"imageHolder\"), ",
+			"overa",
+			"handleOverallProgress",
+			"console.",
+			"handleStartuped",
+			"_startDelay",
+			"_removeCurrentListener",
+			"console",
+			"console.log",
+			"_delayComplete",
+			"delayComplete",
+			"delayComplete ",
+			"createjs.Ticker",
+			".get",
+			"get",
+			".get",
+			"get",
+			"Tween",
+			"ball",
+			"this.",
+			"height",
+			"Ease",
+			"sign",
+			"com"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Returns: createjs.Graphics",
+			"class",
+			"",
+			"string",
+			"number",
+			":",
+			"",
+			"this._",
+			"",
+			"this.asd",
+			"",
+			"this.ball",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/com/opus/app/App.ts",
+					"settings":
+					{
+						"buffer_size": 12059,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1293,
+								1307
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/typescript.tmlanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/createjs.d.ts",
+					"settings":
+					{
+						"buffer_size": 4829,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3702,
+								3716
+							]
+						],
+						"settings":
+						{
+							"auto_name": "createjs.d.ts",
+							"syntax": "Packages/TypeScript/typescript.tmlanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1031.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/index.html",
+					"settings":
+					{
+						"buffer_size": 639,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/com/millermedeiros/hasher/Hasher.ts",
+					"settings":
+					{
+						"buffer_size": 264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								264
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/typescript.tmlanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/build.ts",
+					"settings":
+					{
+						"buffer_size": 980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/typescript.tmlanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 122.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"typ",
+				"src/TypeScriptTest.ts"
+			],
+			[
+				"pro",
+				"TypeScriptTest.sublime-project"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 282.0,
+	"status_bar_visible": true
+}
