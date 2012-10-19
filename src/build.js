@@ -666,8 +666,14 @@ var uglify = new compile.UglifyCommand("../public/js/App.js", "../public/js/App-
 var runServer = new compile.NodeCommand("HttpServer.js");
 var sequence = new org.casalib.time.Sequence();
 sequence.addTask(function () {
+    return (serverCompiler.exe());
+}, 0, serverCompiler.executed);
+sequence.addTask(function () {
     return (appCompiler.exe());
 }, 0, appCompiler.executed);
+sequence.addTask(function () {
+    return (uglify.exe());
+}, 0, uglify.executed);
 sequence.addTask(function () {
     return (runServer.exe());
 }, 0, runServer.executed);

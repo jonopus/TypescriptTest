@@ -17,8 +17,8 @@ var runServer:compile.NodeCommand = new compile.NodeCommand("HttpServer.js");
 
 
 var sequence:org.casalib.time.Sequence = new org.casalib.time.Sequence();
-//sequence.addTask(()=>(serverCompiler.exe()), 0, serverCompiler.executed);
+sequence.addTask(()=>(serverCompiler.exe()), 0, serverCompiler.executed);
 sequence.addTask(()=>(appCompiler.exe()), 0, appCompiler.executed);
-//sequence.addTask(()=>(uglify.exe()), 0, uglify.executed);
+sequence.addTask(()=>(uglify.exe()), 0, uglify.executed);
 sequence.addTask(()=>(runServer.exe()), 0, runServer.executed);
 sequence.start();
