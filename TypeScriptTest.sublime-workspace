@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"FF",
+				"ff0000"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
 				"ex",
 				"extends"
 			],
@@ -32,43 +44,26 @@
 	"buffers":
 	[
 		{
-			"file": "src/com/opus/app/App.ts",
-			"settings":
-			{
-				"buffer_size": 12059,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/createjs.d.ts",
-			"settings":
-			{
-				"buffer_size": 4829,
-				"line_ending": "Windows",
-				"name": "createjs.d.ts"
-			}
-		},
-		{
 			"file": "public/index.html",
 			"settings":
 			{
-				"buffer_size": 639,
+				"buffer_size": 2168,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/com/millermedeiros/hasher/Hasher.ts",
+			"file": "src/com/opus/app/App_.ts",
 			"settings":
 			{
-				"buffer_size": 264,
+				"buffer_size": 11871,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/build.ts",
+			"file": "modules/shell/App.ts",
 			"settings":
 			{
-				"buffer_size": 980,
+				"buffer_size": 84,
 				"line_ending": "Windows"
 			}
 		}
@@ -97,6 +92,28 @@
 	},
 	"file_history":
 	[
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/src/com/opus/app/App.ts",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/modules/shell/App.ts",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/public/css/style.css",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/public/320/index.html",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/public/responsive/responsive.htm",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/public/index.html",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/public/responsive/responsive_files/style.css",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/public/css/1024.css",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/public/css/768.css",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/public/css/8cols.css",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/public/responsive/index.html",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/public/css/responsivegridsystem.css",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/public/js/modernizr.js",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/public/responsive/index_files/modernizr-2.0.6.js",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/public/style.css",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/src/build.ts",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/public/GGS.css",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/public/GGS.html",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/src/com/millermedeiros/hasher/Hasher.ts",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/src/createjs.d.ts",
+		"/C/Users/jadams/Documents/GitHub/TypescriptTest/README.txt",
+		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/Users/jadams/Google Drive/TypeScriptTest/src/node.d.ts",
 		"/C/Users/jadams/Google Drive/TypeScriptTest/public/js/easeljs-0.5.0.min.js",
 		"/C/Users/jadams/Google Drive/TypeScriptTest/src/jquery.d.ts",
@@ -202,9 +219,7 @@
 		"/C/Users/jadams/AppData/Roaming/Sublime Text 2/Packages/User/Plain text.sublime-settings",
 		"/C/SVN/TypeScriptTest/launch.bat",
 		"/C/SVN/TypeScriptTest/compile.bat",
-		"/C/SVN/TypeScriptTest/Makefile",
-		"/C/SVN/TypeScriptTest/src/TypeScriptTest.js",
-		"/C/SVN/TypeScriptTest/TypeScriptTest.sublime-workspace"
+		"/C/SVN/TypeScriptTest/Makefile"
 	],
 	"find":
 	{
@@ -212,7 +227,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 			"C:\\Users\\jadams\\Google Drive\\TypeScriptTest"
@@ -223,6 +238,94 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"hasher",
+			"<td class=\"rank\">",
+			">",
+			"<tr",
+			"<a>",
+			"canvasholder",
+			"<canvas id=\"canvas\" width=\"120\" height=\"120\"><p>Your browser is sooooo old ! Download a modern one now !</p></canvas>",
+			"canvasholder",
+			"log",
+			"canvasholder",
+			"$",
+			"$(",
+			"canvas",
+			"stage",
+			"update",
+			"container",
+			"lass=\"container\" class=\"item\">\n				    <div class=\"dummy\"></div>\n				    <div class=\"element\">\n				        <canvas id=\"canvas\" width=\"120\" height=\"120\"><p>Your browser is sooooo old ! Download a modern one now !</p></canvas>\n				    </div>\n				</div>",
+			"section",
+			"block",
+			"container",
+			"@media",
+			"section a",
+			"></a>",
+			"./responsive_files",
+			"<a>",
+			"alt",
+			"<a",
+			"class=\"\">",
+			"text-wrapper",
+			"thumb",
+			"block",
+			"div#thumbs ",
+			"section div#thumbs a span.text-wrapper",
+			"@media",
+			"max",
+			"thumbs",
+			"#section-work",
+			"section-work",
+			".body",
+			"body",
+			"content",
+			"main",
+			"the-body",
+			"section",
+			"thumbs",
+			"section-work",
+			"clearfix",
+			"section",
+			"http://oliverrussell.com/assets/css/",
+			"sty",
+			"text-wrapper",
+			"./",
+			"section-think",
+			"section-work",
+			".js",
+			"css",
+			"}\n",
+			"assets",
+			"/assets/fancybox/",
+			"/assets/scripts",
+			"/assets/images",
+			"/assets/scripts",
+			"/assets/images",
+			"/assets/images/h/",
+			"/assets/css/",
+			"span_8_of_8",
+			"@media",
+			"toggle play",
+			"apple-touch-icon-precomposed",
+			"jquery",
+			"utilities",
+			"imgsizer",
+			"wrapper",
+			"figure ",
+			"gutter3",
+			"gutter5",
+			"gutter4",
+			"gutter3",
+			"gutter4",
+			"gutter3",
+			"gutter2",
+			"gutter1",
+			"figure",
+			"gutters",
+			"canvas",
+			"gutters",
+			"@media",
+			"assets/",
 			"setStrokeStyle",
 			"function",
 			":",
@@ -262,95 +365,7 @@
 			"<object>",
 			"Returns: Graphics",
 			"interface",
-			"Container",
-			"CanvasRenderingContext2D",
-			"export function ",
-			"Boolean",
-			"String",
-			"Number",
-			" - ",
-			"Shape",
-			"createjs",
-			"Sequence",
-			"stopped",
-			" : function",
-			"appendHash",
-			"prependHash",
-			"POOL_INTERVAL",
-			"_",
-			"getURL",
-			"hasher.",
-			"Hasher.",
-			"prependHash",
-			"hasher",
-			"Signal",
-			"signal",
-			"signals",
-			"document",
-			"history",
-			"memorize",
-			"com.opus.signals",
-			"hash",
-			"onhashchange",
-			"hash",
-			"ul",
-			"sineInOut",
-			"sine",
-			"createStage",
-			"bgImage",
-			"result",
-			"image",
-			"preloadComplete",
-			"getImage",
-			"handleComplete",
-			"handleError",
-			"createBgImage",
-			"preloadComplete",
-			"handleComplete",
-			"getImage",
-			"handleProgress",
-			"PreloadJS",
-			"handleComplete",
-			"handleProgress",
-			"this.",
-			"shape",
-			"addItemsToStage",
-			"createStage",
-			"createBgImage",
-			"shape",
-			"addItemsToStage",
-			"event.result",
-			"createStage",
-			"sequence",
-			"bitmap",
-			"displayImage",
-			"http://opuswebdev.com:1337/",
-			"rty",
-			"img",
-			"$(\"imageHolder\"), ",
-			"overa",
-			"handleOverallProgress",
-			"console.",
-			"handleStartuped",
-			"_startDelay",
-			"_removeCurrentListener",
-			"console",
-			"console.log",
-			"_delayComplete",
-			"delayComplete",
-			"delayComplete ",
-			"createjs.Ticker",
-			".get",
-			"get",
-			".get",
-			"get",
-			"Tween",
-			"ball",
-			"this.",
-			"height",
-			"Ease",
-			"sign",
-			"com"
+			"Container"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -381,30 +396,30 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/com/opus/app/App.ts",
+					"file": "public/index.html",
 					"settings":
 					{
-						"buffer_size": 12059,
+						"buffer_size": 2168,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1293,
-								1307
+								1227,
+								1232
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/TypeScript/typescript.tmlanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -414,98 +429,46 @@
 				},
 				{
 					"buffer": 1,
-					"file": "src/createjs.d.ts",
+					"file": "src/com/opus/app/App_.ts",
 					"settings":
 					{
-						"buffer_size": 4829,
+						"buffer_size": 11871,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3702,
-								3716
+								0,
+								11871
 							]
 						],
 						"settings":
 						{
-							"auto_name": "createjs.d.ts",
-							"syntax": "Packages/TypeScript/typescript.tmlanguage"
+							"syntax": "Packages/TypeScript/typescript.tmlanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1031.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "public/index.html",
+					"file": "modules/shell/App.ts",
 					"settings":
 					{
-						"buffer_size": 639,
+						"buffer_size": 84,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								75,
-								75
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/com/millermedeiros/hasher/Hasher.ts",
-					"settings":
-					{
-						"buffer_size": 264,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								264,
-								264
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/TypeScript/typescript.tmlanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/build.ts",
-					"settings":
-					{
-						"buffer_size": 980,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								472,
-								485
+								0,
+								0
 							]
 						],
 						"settings":

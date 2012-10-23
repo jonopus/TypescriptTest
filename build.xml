@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Application" basedir="." default="buildall">
+	<property name="tsc" value="C:\Users\jadams\AppData\Roaming\npm\tsc.cmd"/>
+	
+	<target name="buildall" description="build all" depends="buildApp,buildServer,runServer" />
+
+	<target name="buildApp">
+		<exec executable="${tsc}">
+			<arg value="@build/compile.list"/>
+		</exec>
+	</target>
+
+	<target name="buildServer">
+		<exec executable="${tsc}">
+			<arg value="@build/httpServerCompile.list"/>
+		</exec>
+	</target>
+
+	<target name="runServer">
+		<exec executable="node">
+			<arg value="modules/server/HttpServer.js"/>
+		</exec>
+	</target>
+
+</project>

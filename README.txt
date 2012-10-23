@@ -5,6 +5,6 @@ nodejs.org
 
 npm install -g typescript && npm install -g uglify-js
 
-tsc build.ts --target ES5 -out build.js && node build.js
+tsc @build/compile.list && node build/build.js
 
 http://localhost:1337/

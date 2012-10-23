@@ -1,11 +1,355 @@
-.hscore {
-    font-size: 14px;
-    font-weight: bold;
-    color: brown;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin : 0;
+	padding : 0;
+	border : 0;
+	font-size : 100%;
+	font : inherit;
+	vertical-align : baseline;
 }
 
-.cscore {
-    font-size: 14px;
-    font-weight: bold;
-    color: saddlebrown;
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display : block;
+}
+
+abbr[title] { 
+	border-bottom : 1px dotted; 
+	cursor : help; 
+}
+
+html {
+	overflow-y : scroll;
+	background-color: #fff;
+	background-attachment: fixed;
+}
+
+body { 
+	margin : 0 auto;
+	padding : 0px;
+	width : 100%;
+	font : 100%/1.4 Helvetica, Arial, sans-serif;
+	color : #968b7c; 
+	background-color : transparent;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	font-family : 'ProximaNovaExtrabold', Helvetica, Arial, sans-serif;
+}
+
+h1 { 
+	margin-bottom : .75em;
+	font-size : 3em; /* 48 / 16 = 3 */
+	line-height : 1.2;
+}
+
+h2 { 
+	margin-bottom : .75em;
+	font-size : 1.75em; /* 28 / 16 = 1.75 */
+	line-height : 1.2;
+}
+
+h3 { 
+	font-size : 1.6em; /* 23 / 16 = 1.4375 */
+	line-height : .9;
+}
+
+h4 { 
+	margin-bottom : 1.25em;
+	font-size : 1.25em; /* 20 / 16 = 1.25 */
+	line-height : 1.25;
+}
+
+h5 { 
+	margin-bottom : 1.5em;
+	font-size : 1em; /* 16 / 16 = 1 */ }
+
+h6 { 
+	color: #C7BAA7;
+	font-size : 1.25em;
+	margin-bottom : .35em;
+	line-height: 1.1em; /* 16 / 16 = 1 */ }
+
+p, 
+ol, 
+ul, 
+dl, 
+address { 
+	margin-bottom : .5em; 
+	font-size : 1em;
+	font-weight: 100;
+}
+
+ul, 
+ol { 
+	margin : 0 0 1.5em -24px;
+	padding : 0 0 0 24px;
+}
+
+ul { 
+	list-style-type : disc;
+}
+
+ol { 
+	list-style-type : decimal;
+}
+
+li ul, 
+li ol { 
+	margin : 0;
+	font-size : 1em;
+}
+
+dl, 
+dd { 
+	margin-bottom : 1.5em;
+}
+
+dt { 
+	font-weight : normal;
+}
+
+blockquote  { 
+	margin : 0 0 1.5em -24px; 
+	padding-left : 24px; 
+	border-left : 1px solid rgb(200,200,200);
+	font-style : italic;
+}
+
+blockquote:before, 
+blockquote:after, 
+q:before, 
+q:after {
+	content : '';
+	content : none;
+}
+
+b, 
+strong	{ 
+	font-weight : bold;
+}
+
+i, 
+em { 
+	font-style : italic;
+}
+
+sup, 
+sub { 
+	position : relative;
+	font-size : 75%; 
+	line-height : 0;
+}
+
+sup { 
+	top : -.5em;
+}
+
+sub { 
+	bottom : -.25em;
+}
+
+address { 
+	font-style : normal;
+}
+
+pre { 
+	margin-bottom : 1.5em; 
+	white-space : pre; 
+	white-space : pre-wrap; 
+	word-wrap : break-word;
+}
+
+pre, 
+code { 
+	font : .875em 'andale mono', 'lucida console', monospace; 
+	line-height : 1.5;
+}
+
+small {
+	font-size : 1em;
+}
+
+
+a, 
+a:visited {
+	outline : none;
+	color : #ff0000;
+	text-decoration : none;
+	font-weight: normal;
+}
+ 
+a:hover { 
+	outline : none;
+	color : #ff9090; 
+	text-decoration : none;
+}
+ 
+a:active, 
+a:focus { 
+	outline : none;
+	color : #00ff00;
+}
+
+.body {
+	clear: both;
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+.clearfix { 
+	zoom : 1;
+}
+
+.clearfix:before, 
+.clearfix:after { 
+	content : "\0020"; 
+	display : block; 
+	height : 0; 
+	overflow : hidden;
+}
+
+.clearfix:after { 
+	clear : both;
+}
+
+div,
+input,
+textarea  { 
+	-webkit-box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-o-box-sizing : border-box;
+	box-sizing : border-box;
+}
+
+/* Hide for screenreaders and visual browsers */
+.hidden { 
+	display : none; 
+	visibility : hidden;
+}
+
+.visuallyhidden { 
+	position : absolute;
+	clip : rect(0 0 0 0); 
+	overflow : hidden;
+	margin: -1px;
+	padding : 0;
+	height : 1px;      
+	width : 1px;
+	border : 0;
+}
+
+.invisible { 
+	visibility : hidden;
+}
+
+section {
+	margin-bottom: 50px;
+	position: relative;
+}
+
+section .item {
+	width: 50%;
+	float: left;
+	display: block;
+	color: #dc5c05;
+	background-color: #fff;
+}
+section .item span.text-wrapper {
+	position: absolute;
+	display: block;
+	width: 50%;
+}
+
+section img {
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+}
+
+.dummy {
+    padding-top: 100%;
+}
+
+.element {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: silver;
+}
+
+canvas{
+	width: 100%;
+	height: 100%;
+}
+
+@media only screen and (min-width: 480px) {
+	section .item {
+		width: 25%;
+		height:25%;
+	}
+
+	section .item span.text-wrapper {
+		width: 25%;
+		height:25%;
+	}
+	
+	section .item span.text-wrapper span.project-name {
+		padding: 55px 10px 10px 10px;
+		font-size: .9375em; /*15/16*/  
+	}
+
+	.container {
+		width: 25%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	#main {
+		padding-bottom: 20px;
+	}
+	
+	section .item {
+		width:12.5%;
+		height:12.5%;
+	}
+
+	section .item span.text-wrapper {
+		width:12.5%;
+		height:12.5%;
+		max-width: 120px;
+		
+	}
+	
+	section .item span.text-wrapper span.project-name {
+		padding: 10px 10px 10px 10px;
+		font-size: .9375em; /*15/16*/  
+	}
+
+	.container {
+		width:12.5%;
+	}
 }
